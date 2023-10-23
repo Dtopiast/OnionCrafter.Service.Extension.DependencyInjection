@@ -1,0 +1,45 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+
+	<PropertyGroup>
+		<Description>Provides a lightweight and versatile extension for the .NET 7 framework, enabling easy registration of typed services and options within the ASP.NET Core application's dependency injection container. Simplify service registration with different lifetimes and options, making it convenient to configure and manage services in your application.</Description>
+		<VersionPrefix>1.0.0</VersionPrefix>
+
+		<GenerateDocumentationFile>True</GenerateDocumentationFile>
+		<IncludeSymbols>True</IncludeSymbols>
+		<Copyright>Copyright 2023 Dtopiast</Copyright>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<AssemblyVersion>$(VersionPrefix)</AssemblyVersion>
+		<FileVersion>$(VersionPrefix)</FileVersion>
+		<Version>$(VersionPrefix)</Version>
+		<Authors>Dtopiast</Authors>
+		<RepositoryType>git</RepositoryType>
+		<TargetFramework>net7.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<PackageIcon>JustLogo.png</PackageIcon>
+		<RepositoryUrl>https://github.com/Dtopiast/ OnionCrafter.Service.Extension.DependencyInjection</RepositoryUrl>
+		<PackageTags>service-registration, dependency-injection, typed-services, options-configuration, aspnet-core, lightweight-extension, .NET-7, streamlined-configurations</PackageTags>
+		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+	</PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="OnionCrafter.Service.Base" Version="1.0.1" />
+    <PackageReference Include="OnionCrafter.Util.Type" Version="1.0.0" />
+    <PackageReference Include="OnionCrafter.Utils.Exception" Version="1.0.3" />
+  </ItemGroup>
+	<ItemGroup>
+		<None Include="..\..\Images\JustLogo.png">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+		<None Include="..\..\LICENSE.txt">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+		<None Include="..\..\README.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+</Project>
