@@ -18,7 +18,7 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
 		<PackageIcon>JustLogo.png</PackageIcon>
-		<RepositoryUrl>https://github.com/Dtopiast/ OnionCrafter.Service.Extension.DependencyInjection</RepositoryUrl>
+		<RepositoryUrl>https://github.com/Dtopiast/OnionCrafter.Service.Extension.DependencyInjection</RepositoryUrl>
 		<PackageTags>service-registration, dependency-injection, typed-services, options-configuration, aspnet-core, lightweight-extension, .NET-7, streamlined-configurations</PackageTags>
 		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
