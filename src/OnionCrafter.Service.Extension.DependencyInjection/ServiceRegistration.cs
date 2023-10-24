@@ -263,7 +263,7 @@ namespace OnionCrafter.Service.Extension.DependencyInjection
         {
             serviceType.ThrowIfNull();
             implementationType.ThrowIfNull();
-            ValidTypeExtension.EnsureValidImplement((typeof(IBaseService)), serviceType);
+            ValidTypeExtension.EnsureValidImplement(serviceType, (typeof(IBaseService)));
             ValidTypeExtension.EnsureValidImplement(serviceType, implementationType);
         }
     }
